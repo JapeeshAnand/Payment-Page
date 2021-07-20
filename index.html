@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Payment</title>
+</head>
+
+<body>
+    <nav>
+        <p> <img src="https://img.icons8.com/material-rounded/24/000000/menu--v1.png" />
+            EXP|CON</p>
+    </nav>
+
+    <form action="#">
+        <h1>PAYMENT</h1>
+        <h3>1. Select your plan</h3>
+        <div class="plan-select">
+            <p>
+                <input type="radio" name="plan" id="basic" value="basic">
+                <label for="basic" class="basic">BASIC</label>
+                <input type="radio" name="plan" id="advanced" value="advanced">
+                <label for="advanced" class="advanced">ADVANCED</label>
+                <input type="radio" name="plan" id="pro" value="pro">
+                <label for="pro" class="pro">PRO</label>
+            </p>
+        </div>
+
+        <div class="row info">
+
+            <div class="bill-info col-6">
+                <h3>2. Billing Information</h3>
+                <div class="fname">
+                    <label for="fname">FULL NAME</label><br>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div class="bill-address">
+                    <label for="bill-address">BILLING ADDRESS</label><br>
+                    <input type="text" name="bill-address" id="bill-address">
+                </div>
+                <div class="city">
+                    <label for="city">CITY</label><br>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div class="post-code">
+                    <label for="post-code">POSTAL CODE</label><br>
+                    <input type="text" name="post-code" id="post-code">
+                </div>
+                <div class="country">
+                    <label for="country">COUNTRY</label><br>
+                    <select name="country" id="country">
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="credit-card info col-6">
+                <h3>3. Credit Card Information</h3>
+                <div class="cardholder-name">
+                    <label for="cardholder-name">CARDHOLDER'S NAME</label><br>
+                    <input type="text" name="cardholder-name" id="cardholder-name">
+                </div>
+                <div class="card-num">
+                    <label for="card-num">CARD NUMBER</label><br>
+                    <input type="text" name="card-num" id="card-num">
+                </div>
+                <div class="exp-month">
+                    <label for="exp-month">EXPIRY MONTH</label><br>
+                    <select name="exp-month" id="exp-month">
+                        <option value="blank"></option>
+                        <option value="jan">January</option>
+                        <option value="feb">February</option>
+                        <option value="mar">March</option>
+                        <option value="apr">April</option>
+                        <option value="may">May</option>
+                        <option value="jun">June</option>
+                        <option value="jul">July</option>
+                        <option value="aug">August</option>
+                        <option value="sept">September</option>
+                        <option value="oct">October</option>
+                        <option value="nov">November</option>
+                        <option value="dec">December</option>
+                    </select>
+                </div>
+                <div class="exp-year">
+                    <label for="exp-year">EXPIRY YEAR</label><br>
+                    <select name="exp-year" id="exp-year">
+                        <option value="blank"></option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                    </select>
+                </div>
+                <div class="cvv">
+                    <label for="cvv">CVV</label><br>
+                    <input type="text" name="cvv" id="cvv">
+                </div>
+            </div>
+        </div>
+
+        <p class="tandc">By continuing, I acknowledge that I've read and agree<br> to the <a class="tandclink">Terms of
+                Serivce & Privacy
+                Policy</a></p>
+        <button class="download">DOWNLOAD</button>
+    </form>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <footer>
+        <p class="support">support@experienceconcerts.co</p>
+        <div class="statement-1">
+            <p>EXP|CON</p><br>
+        </div>
+        <div class="statement-2">
+            <p>2019 &#169; All Rights Reserved | Speer Technologies Incorporated</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

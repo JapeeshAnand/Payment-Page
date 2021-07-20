@@ -1,0 +1,282 @@
+* {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: bold
+}
+
+nav {
+    font-size: 30px;
+    letter-spacing: 4.8px;
+}
+
+img {
+    height: 30px;
+}
+
+form h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 7.4px;
+    font-size: 50px;
+}
+
+form {
+    margin: 50px;
+}
+
+
+h3 {
+    letter-spacing: 4.5px;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.plan-select {
+    margin-bottom: 55px;
+}
+
+.basic {
+    color: #D24848;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.advanced {
+    color: #FFB33F;
+    margin-right: 10px;
+    font-weight: bold
+}
+
+.pro {
+    color: #1FE1E9;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.fname {
+    font-size: 15px;
+    letter-spacing: 2.2px;
+}
+
+.bill-address {
+    font-size: 15px;
+    letter-spacing: 2.2px;
+}
+
+.city {
+    font-size: 15px;
+    letter-spacing: 2.2px;
+}
+
+.post-code {
+    font-size: 15px;
+    letter-spacing: 2.2px;
+}
+
+.country {
+    font-size: 15px;
+    letter-spacing: 2.2px;
+}
+
+.cardholder-name {
+    letter-spacing: 2.2px;
+    font-size: 15px;
+}
+
+.card-num {
+    letter-spacing: 2.2px;
+    font-size: 15px;
+}
+
+.exp-month {
+    letter-spacing: 2.2px;
+    font-size: 15px;
+}
+
+.exp-year {
+    letter-spacing: 2.2px;
+    font-size: 15px;
+}
+
+.cvv {
+    letter-spacing: 2.2px;
+    font-size: 15px;
+}
+
+
+.fname input {
+    width: 56%;
+    margin-bottom: 20px;
+}
+
+.bill-address input {
+    width: 56%;
+    margin-bottom: 20px;
+}
+
+.city {
+    margin-right: 20px;
+}
+
+.city, .post-code {
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+.country select {
+    width: 56%;
+    margin-bottom: 12px;
+}
+
+.exp-month, .exp-year {
+    display: inline-block;
+}
+
+.cardholder-name input {
+    width: 56%;
+    margin-bottom: 20px;
+}
+
+.card-num input {
+    width: 56%;
+    margin-bottom: 20px;
+}
+
+.cvv input {
+    width: 56%;
+    margin-bottom: 20px;
+}
+
+.exp-month {
+    width: 28%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+
+.exp-year {
+    width: 47%;
+    margin-bottom: 20px;
+}
+
+.exp-month select {
+    width: 100%;
+}
+
+.exp-year select {
+    width: 56%;
+}
+
+.info {
+    margin-bottom: 30px;
+}
+
+input:focus {
+    border-bottom: 4px solid #2F1FE9 ;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.download {
+    font-size: 12px;
+    letter-spacing: 1.9px;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: white;
+    background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+    border-radius: 222px;
+    opacity: 1;
+    border: none;
+}
+
+p {
+    font-weight: bold;
+}
+
+.tandc {
+    font-size: 15px;
+}
+
+.tandclink {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    color: white;
+    top: 1947px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    background-color: #5E33D1;
+    padding: 50px;
+}
+
+.statement-1 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.support {
+    font-size: 16px;
+    letter-spacing: 3.5px;
+}
+.statement-1 p {
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 4.8px;
+}
+.statement-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.statement-2 p {
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 1;
+    letter-spacing: 2.4px;
+}
+
+
+#basic:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -3px;
+    left: -1px;
+    position: relative;
+    background-color: #D24848;;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+#advanced:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -3px;
+    left: -1px;
+    position: relative;
+    background-color: #FFB33F;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+#pro:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -3px;
+    left: -1px;
+    position: relative;
+    background-color: #1FE1E9;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
